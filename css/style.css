@@ -1,0 +1,51 @@
+ div{
+     display: block;
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+ }
+
+ /*540px	720px	960px	1140px*/
+ /*
+ @media screen and (min-width: 540px) {
+    div{
+       width: 300px;
+        background-color: green;
+    }
+ }
+ 
+
+ @media screen and (min-width: 720px) {
+    div{
+       
+        background-color: blue;
+    }
+ }
+ */
+ @media screen and (max-width: 1140px) {
+    div{
+        background-color: chocolate
+    }
+ }
+
+ @media screen and (max-width: 960px) {
+    div{
+        background-color: violet
+    }
+ }
+ 
+ 
+
+
+ @media screen and ( orientation: portrait){
+     div{
+         width: 250px;
+         height: 100px;
+     }
+ }
+
+ @media screen and ( min-resolution: 2dppx){
+    div{
+        background-color: yellow;
+    }
+}
